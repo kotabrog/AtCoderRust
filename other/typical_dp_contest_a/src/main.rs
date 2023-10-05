@@ -75,7 +75,6 @@ fn main() {
 
     while !queue.is_empty() {
         let (vec, add_map) = queue.pop_front().unwrap();
-        println!("{:?}, {:?}", vec, add_map);
 
         let mut check_vec = vec![];
         'outer: for v in vec {
